@@ -1,0 +1,59 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+config/.env
+config/.env.local
+
+# Dependencies
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Application State & Logs
+data/
+test/
+paper_runtime/
+*.jsonl
+*.log
+
+# Backtest Results
+backtest_*.json
+experiment_*.json
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+.cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build
+dist/
+build/

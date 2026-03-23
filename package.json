@@ -1,0 +1,25 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "trade": "node src/index.js",
+    "backtest": "node src/backtest.js",
+    "monitor": "node src/monitor_trend.js",
+    "test-quick": "node src/backtest.js --symbol BTC/USDT --tf 1h --since 15d",
+    "test-full": "node src/backtest.js --batch --symbols BTC,LTC,ETH --preset balanced",
+    "dev": "nodemon src/index.js",
+    "check": "node -e \"require('dotenv').config(); console.log(process.env.GATE_API_KEY ? '✓ API Key found' : '✗ API Key missing')\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ccxt": "^4.5.43",
+    "dotenv": "^17.3.1",
+    "node-binance-api": "^1.0.22",
+    "technicalindicators": "^3.1.0",
+    "telegraf": "^4.16.3"
+  }
+}

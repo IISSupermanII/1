@@ -1,0 +1,68 @@
+[
+  {
+    "config": "1h-base",
+    "tf": "1h",
+    "trades": 9,
+    "wins": 2,
+    "losses": 5,
+    "pf": 2.05,
+    "expectancy": "+$5.27 /",
+    "return": 4.7,
+    "dd": 1
+  },
+  {
+    "config": "4h-base",
+    "tf": "4h",
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "pf": 0,
+    "expectancy": "+$3.05 /",
+    "return": 0.3,
+    "dd": 0
+  },
+  {
+    "config": "1d-base",
+    "tf": "1d",
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "pf": 0,
+    "expectancy": "+$0.00 /",
+    "return": 0,
+    "dd": 0
+  },
+  {
+    "config": "1h-strict",
+    "tf": "1h",
+    "trades": 9,
+    "wins": 2,
+    "losses": 5,
+    "pf": 2.05,
+    "expectancy": "+$5.27 /",
+    "return": 4.7,
+    "dd": 1
+  },
+  {
+    "config": "1h-veryStrict",
+    "tf": "1h",
+    "trades": 9,
+    "wins": 2,
+    "losses": 5,
+    "pf": 2.05,
+    "expectancy": "+$5.27 /",
+    "return": 4.7,
+    "dd": 1
+  },
+  {
+    "config": "1h-longshort",
+    "tf": "1h",
+    "trades": 14,
+    "wins": 2,
+    "losses": 9,
+    "pf": 0.52,
+    "expectancy": "+$1.74 /",
+    "return": 2.4,
+    "dd": 4
+  }
+]

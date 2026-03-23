@@ -1,0 +1,15 @@
+{
+  "totalTrades": 62,
+  "totalWins": 11,
+  "totalPnL": -62.43000000000002,
+  "avgReturn": -0.6936860772888951,
+  "avgDD": 2.865822095916632,
+  "profitableSymbols": 4,
+  "excellent": [
+    "BTC/USDT"
+  ],
+  "recommended": [
+    "BTC/USDT",
+    "LTC/USDT"
+  ]
+}
